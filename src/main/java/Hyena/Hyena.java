@@ -18,7 +18,7 @@ public class Hyena{
 				currentFile = new File(arg);
 				fileFiller(currentFile, filesToSearch);
 			}
-			Hyena hyena = new Hyena("C:\\Users\\admin1\\IdeaProjects\\Hyena\\src\\main\\resources\\expressions.csv", filesToSearch);
+			Hyena hyena = new Hyena("expressions.csv", filesToSearch);
 
 		} else {
 			System.err.println("Please specify files or directory !");
